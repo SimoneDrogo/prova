@@ -1031,4 +1031,9 @@ public class Assert {
     private static String buildPrefix(String message) {
         return message != null && message.length() != 0 ? message + ": " : "";
     }
+    
+    public static void assertGreaterThan (int x , int y) {
+        
+        assert x>y;
+    }
 }
