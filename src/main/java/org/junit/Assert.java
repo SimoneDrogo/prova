@@ -1032,8 +1032,8 @@ public class Assert {
         return message != null && message.length() != 0 ? message + ": " : "";
     }
     
-    public static void assertGreaterThan (int x , int y) {
+    public static void assertGreaterThan (double x, double y) {
         
-        assert x>y;
+        assert x > y;
     }
 }

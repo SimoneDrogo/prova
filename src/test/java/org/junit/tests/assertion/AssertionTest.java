@@ -1002,10 +1002,10 @@ public class AssertionTest {
             }
         };
     }
+
     
-    public void assertSameNumberPlusOne (int x){
+    public static void assertGreterThanSameNumberPlusOne(double x) {
         
         Assert.assertGreaterThan(x+1, x);
-        
     }
 }
